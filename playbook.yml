@@ -6,4 +6,3 @@
       become: yes
     - role: geerlingguy.jenkins
       become: yes
-gi
