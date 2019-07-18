@@ -1,6 +1,6 @@
 - hosts: jenkins
   vars:
-    jenkins_hostname: jenkins.example.com
+    jenkins_hostname: linuxnagios.forwardinc.com
   roles:
     - role: geerlingguy.java
       become: yes
