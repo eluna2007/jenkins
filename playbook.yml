@@ -1,4 +1,4 @@
-- hosts: jenkins
+- hosts: all
   vars:
     jenkins_hostname: linuxnagios.forwardinc.com
   roles:
@@ -6,3 +6,4 @@
       become: yes
     - role: geerlingguy.jenkins
       become: yes
+gi
